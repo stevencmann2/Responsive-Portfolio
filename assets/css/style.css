@@ -1,0 +1,207 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/wallpaper.png);
+    position: relative;
+
+}
+
+.sticky-top {
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-bottom: 5px;
+    margin: auto;
+    display: block;
+    height: 70px;
+    background: #555555;
+    color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .8)
+}
+
+.inside_header {
+    width: 960px;
+    margin: auto;
+    height: 100%;
+    background-color: #555555;
+
+}
+
+.namebox {
+    height: 100%;
+    background-color: #29a4ff;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+
+.name {
+    height: 100%;
+    font-weight: bold;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin-top: 23px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.navigation {
+    list-style-type: none;
+    float: right;
+    height: 100%;
+    display: block;
+}
+
+.navigation a {
+    height: 100%;
+    padding: 0px 20px;
+    color: #f1f1f1;
+
+}
+
+.navigation li {
+    display: inline-block;
+    height: 100%;
+    color: #f1f1f1;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    margin-top: 23px;
+}
+
+
+
+.navigation a:hover {
+    background-color: #29a4ff;
+    color: #f1f1f1;
+
+
+}
+
+
+
+.wrapper {
+    padding-top: 100px;
+    margin: auto;
+    width: 960px;
+
+}
+
+.container-home {
+    background: #f1f1f1;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-bottom: 200px;
+    border-style: ridge;
+    border-color: #555555;
+    border-width: 1px;
+
+}
+
+.content-header {
+    margin-bottom: 10px;
+    border-bottom: 5px solid #555555;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 1.875em;
+    color: #29a4ff;
+    padding-bottom: 20px;
+
+}
+
+
+.profilepic {
+    height: 30vh;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Arial', Helvetica, 'Helvetica Neue', sans-serif;
+    line-height: 2;
+    color: #555555;
+    padding-top: 20px;
+}
+
+
+#port_pics {
+    overflow: hidden;
+}
+
+
+#image1 {
+
+    display: block;
+    float: left;
+    width: 47%;
+    height: 250px;
+    margin-bottom: 30px;
+
+}
+
+#image2 {
+
+    display: block;
+    float: right;
+    width: 47%;
+    height: 250px;
+    margin-bottom: 30px
+}
+
+#image3 {
+
+    display: block;
+    float: left;
+    width: 47%;
+    height: 250px;
+
+}
+
+#image4 {
+
+    display: block;
+    float: right;
+    width: 47%;
+    height: 250px;
+
+
+}
+
+
+
+
+input {
+    width: 96.5%;
+    margin: 10px 0;
+    padding: 10px 15px;
+
+}
+
+#Message {
+    height: 200px;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Footer {
+    width: 100%;
+    background-color: #555555;
+    border-top: 8px solid #29a4ff;
+    color: #f1f1f1;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+
+}
