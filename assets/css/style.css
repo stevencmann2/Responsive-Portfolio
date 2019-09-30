@@ -103,7 +103,7 @@ body {
 }
 
 .content-header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: 5px solid #555555;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 1.875em;
@@ -231,10 +231,14 @@ input[type=submit] {
     .wrapper {
         margin-left: 50px;
         width: 60%;  
-        height: auto;     
+           
     }
-    
-  
+
+    .container-home {
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
     
     input {
         width: 94%;
@@ -242,34 +246,56 @@ input[type=submit] {
 
 
 }
-/* Tablet viewport */ 
+/* Tablet view */ 
 
 @media screen and (max-width: 768px) {
-
-    .wrapper {
+    .sticky-top {
         width: 100%;
     }
 
-}
-/* phone viewport */
+    .namebox {
+        margin-left: 40px;
+    }
+
+    .navigation {
+        margin-right: 200px;
+
+    }
+
+    .wrapper {
+        margin-left: 40px;
+        width: 92%;  
+        
+    }
+   
+
+    input {
+        width: 94%;
+    }
+/* Typical phone or handheld view */
 
 @media screen and (max-width: 640px) {
 
     .sticky-top {
         position: static;
+        width: 100%;
+        Text-align: center;
     }
+
+.namebox {
+    display: block;
+    text-align: center;
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+}
 
     .wrapper {
         width: 100%;
     }
 
-
-
-
-
-
-
-
-
+   
 
 }
