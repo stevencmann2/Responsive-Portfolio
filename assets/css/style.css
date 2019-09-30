@@ -172,7 +172,9 @@ p {
 
 }
 
-
+.contact-form{
+    width: 100%;
+}
 
 
 input {
@@ -186,6 +188,16 @@ input {
     height: 200px;
 
 }
+
+input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 100%;
+    color: #ffffff;
+    cursor: pointer;
+    background: #29a4ff;
+    border: 0 none;
+  }
 
 .clearfix:after {
     content: "";
@@ -203,5 +215,61 @@ input {
     bottom: 0;
     margin: auto;
     text-align: center;
+
+}
+
+
+/* Media screen tags and responsive layouts  below : */
+
+@media screen and (max-width: 980px) {
+
+    .namebox {
+        margin-left: 40px;
+    }
+
+
+    .wrapper {
+        margin-left: 50px;
+        width: 60%;  
+        height: auto;     
+    }
+    
+  
+    
+    input {
+        width: 94%;
+    }
+
+
+}
+/* Tablet viewport */ 
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+}
+/* phone viewport */
+
+@media screen and (max-width: 640px) {
+
+    .sticky-top {
+        position: static;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
 
 }
