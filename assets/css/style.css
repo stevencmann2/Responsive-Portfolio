@@ -277,8 +277,6 @@ input[type=submit] {
 
      .sticky-top {
         position: static;
-        width: 100%;
-
     }
 
     .inside_header {
@@ -286,19 +284,22 @@ input[type=submit] {
         float: none;
         display: block;
         text-align: none;
-        background: #29a4ff;
+        width: 100%;
+        
           
     }
 
     .namebox {
         text-align: center;
-        width: 100%;
+        width:100%;
+        background:#29a4ff;
         margin: auto
     }
    
 
     .navigation {
         float: none;
+        margin: auto;
         text-align: center;
         width: 100%;
         background: #555555;
@@ -306,12 +307,39 @@ input[type=submit] {
         padding-bottom: 20px;
     }
     .wrapper {
-        width: 100%;
+        width: 87%;
     }
 
-   .container-home {
-       width: 92%;
-       height: 92%;
-   }
+    #image1 {
+        float: none;
+        margin: auto;
+        display: block;
+        padding-bottom: 30px;
+        width: 95%;
+    }
+   
+    #image2 {
+        float: none;
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+        width: 95%;
+    }
+
+    #image3 {
+        float: none;
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+        width: 95%;
+    }
+
+    #image4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+
 
 }
