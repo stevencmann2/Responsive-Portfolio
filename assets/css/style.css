@@ -219,15 +219,23 @@ input[type=submit] {
 
 }
 
+/* This begins the media query section of the style sheet */
 
 /* Media screen tags and responsive layouts  below : */
 
 @media screen and (max-width: 980px) {
 
-    .namebox {
-        margin-left: 40px;
+    .inside_header{
+         width:100%;
+         
+        
     }
 
+    .namebox {
+        margin-left: 4%;
+    }
+
+    
 
     .wrapper {
         margin-left: 50px;
@@ -236,8 +244,8 @@ input[type=submit] {
     }
 
     .container-home {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 4%;
+        padding-right: 4%;
         
     }
     
@@ -255,16 +263,16 @@ input[type=submit] {
     }
 
     .namebox {
-        margin-left: 40px;
+        margin-left: 3%;
     }
 
     .navigation {
-        margin-right: 200px;
+        margin-right: 3%;
 
     }
 
     .wrapper {
-        margin-left: 40px;
+        margin-left: 30px;
         width: 92%;  
         
     }
@@ -306,8 +314,11 @@ input[type=submit] {
         font-family: 'Georgia', 'Times New Roman', Times, serif;
         padding-bottom: 20px;
     }
+
     .wrapper {
-        width: 87%;
+        margin: auto;
+        width: 95%;
+        
     }
 
     #image1 {
