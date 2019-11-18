@@ -219,6 +219,24 @@ input[type=submit] {
 
 }
 
+#media-link-div{
+    display: block;
+    margin-top: 1%;
+    text-align: center;
+
+    
+}
+ .media-link {
+     margin: auto;
+     padding: 5px;
+     size: .9em;;
+     color: gray;
+ }
+
+ .media-link:hover {
+    color: #29a4ff;
+
+ }
 /* This begins the media query section of the style sheet */
 
 /* Media screen tags and responsive layouts  below : */
