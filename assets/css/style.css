@@ -244,6 +244,10 @@ input[type=submit] {
     color: #29a4ff;
 
  }
+ .contact-p {
+    padding-top: 0;
+    padding-bottom: 5px;
+}
 
  .repo-link {
      text-decoration: none;
@@ -290,10 +294,7 @@ input[type=submit] {
         width: 94%;
     }
 
-    .contact-p {
-        padding-top: 0;
-        padding-bottom: 5px;
-    }
+    
 
 
 }
