@@ -244,6 +244,17 @@ input[type=submit] {
     color: #29a4ff;
 
  }
+
+ .repo-link {
+     text-decoration: none;
+ }
+
+ .repo-space {
+     padding: 3px;
+     text-align: center;
+     text-decoration: none;
+     color: gray;
+ }
 /* This begins the media query section of the style sheet */
 
 /* Media screen tags and responsive layouts  below : */
