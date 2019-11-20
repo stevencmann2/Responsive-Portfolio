@@ -265,7 +265,8 @@ input[type=submit] {
 
 #list {
     list-style-type: square;
-    list-style-image: url(../images/github.png); left right
+    list-style-image: url(../images/github.png);
+    
     list-style-position: inside;
 
 }
