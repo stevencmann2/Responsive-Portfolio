@@ -254,6 +254,7 @@ input[type=submit] {
 
 .repo-link {
     text-decoration: none;
+    color: gray;
 }
 
 .repo-space {
@@ -266,8 +267,8 @@ input[type=submit] {
 #list {
     list-style-type: square;
     list-style-image: url(../images/github.png);
-    
     list-style-position: inside;
+   
 
 }
 
