@@ -174,10 +174,68 @@ body {
     padding: 10px 30px;
     
 }
+/*IMAGE 1 ENDING */
 
+/*IMAGE 2 HOVER*/
 
+.giphy {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
 
+.giphy:hover .giphy-s {
+    width: 47%;
+    height: 250px;
+}
 
+.giphy img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.giphy-s {
+    
+    width: 0px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    opacity: 0.9;
+}
+
+.giphy-s h2 {
+    color: white;
+    font-size: 2em;
+    /* border: 6px solid white; */
+    padding: 10px 30px;
+    text-decoration: underline;
+}
+.giphy-s p {
+    
+    color: white;
+    font-size: 1em;
+    /* border: 6px solid white; */
+    padding: 10px 70px;
+    
+}
+.giphy-s h3 {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    /* border: 6px solid white; */
+    padding: 10px 30px;
+    
+}
+/* gify ending  */
 .profilepic {
     height: 30vh;
     float: left;
