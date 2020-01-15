@@ -16,7 +16,8 @@ body {
     color: #f1f1f1;
     position: fixed;
     width: 100%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .8)
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .8);
+    z-index: 2;
 }
 
 .inside_header {
@@ -120,17 +121,17 @@ body {
     height: 100%;
     position: relative;
     cursor: pointer;
+    
 
 }
 .post:hover .post-s{
-    width:100%;
+    width:47%;
+    height: 250px;
 }
-
 .post img{
     display: block;
     width: 100%;
     height: 100%;
-
 }
 
 .post-s{
@@ -358,6 +359,7 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
     .sticky-top {
         width: 100%;
+        z-index: 2;
     }
 
     .namebox {
@@ -385,6 +387,7 @@ input[type=submit] {
 
         .sticky-top {
             position: static;
+            z-index: 2;
         }
 
         .inside_header {
