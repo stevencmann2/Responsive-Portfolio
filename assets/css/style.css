@@ -114,6 +114,7 @@ body {
     padding-bottom: 20px;
 
 }
+
 /*THIS IS A TEST */
 
 .post {
@@ -121,21 +122,23 @@ body {
     height: 100%;
     position: relative;
     cursor: pointer;
-    
+
 
 }
-.post:hover .post-s{
-    width:47%;
+
+.post:hover .post-s {
+    width: 47%;
     height: 250px;
 }
-.post img{
+
+.post img {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.post-s{
-   
+.post-s {
+
     width: 0px;
     height: 200px;
     background: black;
@@ -146,12 +149,13 @@ body {
     overflow: hidden;
     transition: 0.7s ease;
 }
- .post-s h2{
+
+.post-s h2 {
     color: white;
     font-size: 50px;
     border: 6px solid white;
     padding: 10px 30px;
- }
+}
 
 
 /*THIS IS A TEST */
@@ -310,7 +314,7 @@ input[type=submit] {
     list-style-type: square;
     list-style-image: url(../images/github.png);
     list-style-position: inside;
-   
+
 
 }
 
@@ -454,6 +458,13 @@ input[type=submit] {
             margin: auto;
             width: 95%;
         }
+
+
+        .post-s{
+            display: none !important;
+        }
+
+        
 
 
     }
