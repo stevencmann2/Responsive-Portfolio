@@ -607,10 +607,17 @@ input[type=submit] {
 
 
         .post-s{
-            display: none !important;
+           
         }
 
         
+        .giphy-s{
+            display: none !important;
+        }
 
+        .train-s{
+            display: none !important;
+        }
 
     }
+}
