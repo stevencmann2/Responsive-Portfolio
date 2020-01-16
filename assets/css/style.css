@@ -559,7 +559,27 @@ input[type=submit] {
         width: 94%;
     }
 
+    /* hover items*/
+    .post-s h2 {
+        text-align: center;
+    }
 
+    .post-s p{
+        display: none !important;
+    }
+
+    
+    .giphy-s p{
+        display: none !important;
+    }
+
+    .train-s p{
+        display: none !important;
+    }
+
+    .proj-s p{
+        display: none !important;
+    }
 
 
 }
@@ -666,7 +686,7 @@ input[type=submit] {
         }
 
 
-        .post-s{
+        .post-s {
             display: none !important;
         }
 
@@ -676,6 +696,10 @@ input[type=submit] {
         }
 
         .train-s{
+            display: none !important;
+        }
+
+        .proj-s {
             display: none !important;
         }
 
