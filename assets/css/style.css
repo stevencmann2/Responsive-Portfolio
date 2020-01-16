@@ -300,7 +300,71 @@ body {
     padding: 10px 30px;
     
 }
-/* gify ending  */
+/* train ending  */
+/*IMAGE 3 HOVER*/
+
+.proj {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.proj:hover .proj-s {
+    width: 47%;
+    height: 250px;
+}
+
+.proj img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.proj-s {
+    
+    width: 0px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    top: 17.5em;
+    left: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    opacity: 0.98;
+}
+
+.proj-s h2 {
+    color: white;
+    font-size: 2em;
+    /* border: 6px solid white; */
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.proj-s p {
+    
+    color: white;
+    font-size: 1em;
+    /* border: 6px solid white; */
+    padding: 10px 70px;
+    
+}
+.proj-s h3 {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    /* border: 6px solid white; */
+    padding: 10px 30px;
+    
+}
+
+/*End of project 1 hover effects */
 .profilepic {
     height: 30vh;
     float: left;
