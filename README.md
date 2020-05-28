@@ -19,7 +19,7 @@ https://stevencmann2.github.io/Responsive-Portfolio/
 
 ## Authors
 
-* **STEVEN MANN** - [Steven Mann](hhttps://github.com/stevencmann2?tab=repositories)
+* [Steven Mann](https://github.com/stevencmann2?tab=repositories)
 
 
 
