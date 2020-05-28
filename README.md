@@ -14,12 +14,12 @@ https://stevencmann2.github.io/Responsive-Portfolio/
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) 
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [MOBILE RESPONSIVENESS](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)  Feeds
+* [Mobile Responsiveness](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 
 ## Authors
 
-* **STEVEN MANN** - [STEVEN MANN](hhttps://github.com/stevencmann2?tab=repositories)
+* **STEVEN MANN** - [Steven Mann](hhttps://github.com/stevencmann2?tab=repositories)
 
 
 
